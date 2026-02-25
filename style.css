@@ -1,0 +1,42 @@
+/* 1. Style the background and center everything */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #00b4db, #0083b0); /* Nice sky blue gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 2. Style the white card holding our content */
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 350px;
+}
+
+/* 3. Make the input and button look nice */
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 70%;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #0083b0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 4. Keep the weather info hidden until we have data */
+.hidden {
+    display: none;
+}
